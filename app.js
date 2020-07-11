@@ -57,6 +57,7 @@ function start(){
 
 function stop(){
     clearInterval(interval)
+    startbutton.disabled = false
 }
 
 function reset(){
