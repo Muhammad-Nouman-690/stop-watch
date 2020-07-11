@@ -51,7 +51,7 @@ function timer(){
 function start(){
 
     interval = setInterval(timer,10)
-    
+    startbutton.disabled = true
 
 }
 
